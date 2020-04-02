@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExploreCalifornia
 {
-    public class CharHub : Hub
+    public class ChatHub : Hub
     {
         public async Task SendMessage (string name, string text)
         {
